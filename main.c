@@ -76,7 +76,7 @@ void display_string(int x, int y, int z,GLfloat red,GLfloat green,GLfloat blue, 
 /* To display the first title screen of the mini project. */
 void displayTitleScreen() {
     glClearColor(0.0,1.0,1.0,1.0);
-    display_string(-500,800,700,1.0,0.20,0.0,"PES Institute of Technology Bangalore South Campus",1); //correct cordinate according to name
+    display_string(-500,800,700,1.0,0.20,0.0,"Institute name",1); //correct cordinate according to name
     display_string(-270,700,700,1.0,0.20,0.0,name3,2);
     display_string(-900,470,700,1.0,0.20,0.0,"HELP :-",2);
     display_string(-900,400,700,1.0,0.20,0.0,"MOUSE",2);
@@ -89,10 +89,10 @@ void displayTitleScreen() {
     display_string(-900,-450,0,1.0,0.20,0.0,"TEAM MEMBERS :-",2);
     display_string(-850,-520,0,1.0,0.20,0.0,"NAMES",2);
     display_string(-400,-520,0,1.0,0.20,0.0,"USN",2);
-    display_string(-850,-580,0,1.0,0.20,0.0,"Abhishek.R",3);
-    display_string(-850,-630,0,1.0,0.20,0.0,"Naveen Kumar Joshi",3);
-    display_string(-400,-580,0,1.0,0.20,0.0,"1PE15CS006",4);
-    display_string(-400,-630,0,1.0,0.20,0.0,"1PE14CS082",4);
+    display_string(-850,-580,0,1.0,0.20,0.0,"Name1",3);
+    display_string(-850,-630,0,1.0,0.20,0.0,"Name2",3);
+    display_string(-400,-580,0,1.0,0.20,0.0,"USN1",4);
+    display_string(-400,-630,0,1.0,0.20,0.0,"USN2",4);
     glutPostRedisplay();
     glutSwapBuffers();
 }
